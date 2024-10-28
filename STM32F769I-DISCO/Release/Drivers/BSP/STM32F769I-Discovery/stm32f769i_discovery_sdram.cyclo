@@ -1,0 +1,10 @@
+../Drivers/BSP/STM32F769I-Discovery/stm32f769i_discovery_sdram.c:205:6:BSP_SDRAM_Initialization_sequence	1
+../Drivers/BSP/STM32F769I-Discovery/stm32f769i_discovery_sdram.c:267:9:BSP_SDRAM_ReadData	1
+../Drivers/BSP/STM32F769I-Discovery/stm32f769i_discovery_sdram.c:286:9:BSP_SDRAM_ReadData_DMA	1
+../Drivers/BSP/STM32F769I-Discovery/stm32f769i_discovery_sdram.c:305:9:BSP_SDRAM_WriteData	1
+../Drivers/BSP/STM32F769I-Discovery/stm32f769i_discovery_sdram.c:324:9:BSP_SDRAM_WriteData_DMA	1
+../Drivers/BSP/STM32F769I-Discovery/stm32f769i_discovery_sdram.c:341:9:BSP_SDRAM_Sendcmd	1
+../Drivers/BSP/STM32F769I-Discovery/stm32f769i_discovery_sdram.c:359:13:BSP_SDRAM_MspInit	1
+../Drivers/BSP/STM32F769I-Discovery/stm32f769i_discovery_sdram.c:130:9:BSP_SDRAM_Init	1
+../Drivers/BSP/STM32F769I-Discovery/stm32f769i_discovery_sdram.c:457:13:BSP_SDRAM_MspDeInit	1
+../Drivers/BSP/STM32F769I-Discovery/stm32f769i_discovery_sdram.c:179:9:BSP_SDRAM_DeInit	1

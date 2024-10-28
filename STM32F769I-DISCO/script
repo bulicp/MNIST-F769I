@@ -1,0 +1,19 @@
+config load "C:/tmp/ioc_NLYwzH/STM32F769I-DISCO.ioc"
+project toolchain STM32CubeIDE
+
+pack enable STMicroelectronics X-CUBE-AI 9.1.0 "Artificial Intelligence" Core
+pack enable STMicroelectronics X-CUBE-AI 9.1.0 Device Application SystemPerformance
+pack validate
+AI set modes 2
+AI init bsp
+AI add model "network" "tflite" "C:\_AI_Projects\AI_as_a_Service\AIaaS\backend\project_service\templates\deepnet_relu.tflite"
+AI forcecopytype
+AI load requiredPreloadScript
+AI setboard STM32F769I-DISCO
+AI extram "network" "External SDRAM" 0xC0000000 false
+AI bufferextram "network" 0xC0000000
+project set heapsize 0x800
+project set stacksize 0x800
+AI save "network"
+project generate
+exit
